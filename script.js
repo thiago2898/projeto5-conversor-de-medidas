@@ -9,23 +9,23 @@ let chooseValue = prompt(`Agora, selecione uma opção abaixo para converter, en
 
 switch(chooseValue) {
     case 'milímetro':
-        alert(`${mValue}m equivale à ${mValue * 1000}mm`)
+        alert(`${mValue}m equivale à ${mValue * 1000}mm.`)
         break
     case 'centímetro':
-        alert(`${mValue}m equivale à ${mValue * 100}cm`)
+        alert(`${mValue}m equivale à ${mValue * 100}cm.`)
         break
     case 'decímetro':
-        alert(`${mValue}m equivale à ${mValue * 10}dm`)
+        alert(`${mValue}m equivale à ${mValue * 10}dm.`)
         break
     case 'decâmetro':
-        alert(`${mValue}m equivale à ${mValue / 10}dam`)
+        alert(`${mValue}m equivale à ${mValue / 10}dam.`)
         break
     case 'hectômetro':
-        alert(`${mValue}m equivale à ${mValue / 100}hm`)
+        alert(`${mValue}m equivale à ${mValue / 100}hm.`)
         break
     case 'quilômetro':
-        alert(`${mValue}m equivale à ${mValue / 1000}km`)
+        alert(`${mValue}m equivale à ${mValue / 1000}km.`)
         break
     default:
-        alert('Não deu certo.')
+        alert('Opcão inválida!')
 }
